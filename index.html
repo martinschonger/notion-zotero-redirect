@@ -1,5 +1,12 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-<title>Redirecting to zotero://select/library/items/L6MJ49Y6</title>
-<meta http-equiv="refresh" content="0; URL=zotero://select/library/items/L6MJ49Y6">
-<link rel="canonical" href="zotero://select/library/items/L6MJ49Y6">
+<title>Redirecting to local zotero instance...</title>
+<head>
+<script type="text/javascript">
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  const item_id = urlParams.get('item_id')
+  var url = "zotero://select/library/items/" + item_id;
+  window.location.replace(url);
+</script>
+</head>
